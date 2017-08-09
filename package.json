@@ -1,9 +1,9 @@
 {
-  "name": "cordova-phone-call",
+  "name": "cordova-phone-calllog",
   "version": "1.1.1",
   "description": "cordova phone call log",
   "cordova": {
-    "id": "com.calllog.plugins",
+    "id": "cordova-phone-calllog",
     "platforms": [
       "android"
     ]
@@ -14,15 +14,14 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-ios",
     "cordova-android"
   ],
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.5.0"
+      "version": ">=5.0.0"
     }
   ],
-  "author": "",
+  "author": "fix",
   "license": "MIT"
 }
