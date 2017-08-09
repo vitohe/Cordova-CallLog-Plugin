@@ -1,0 +1,27 @@
+{
+    "name": "cordova-phone-call",
+    "version": "1.0.0",
+    "description": "Android 6.0 permissions check.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dalyc/Cordova-CallLog-Plugin"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-browser",
+        "cordova-ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=5.0.0"
+        }
+    ],
+    "author": "",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/NeoLSN/cordova-plugin-android-permission/issues"
+    },
+    "homepage": "https://github.com/NeoLSN/cordova-plugin-android-permission#readme"
+}
