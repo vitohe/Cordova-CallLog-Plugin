@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="com.ubookr.plugins.calllog"
+        id="cordova-phone-calllog-watch"
         version="2.0">
 
     <name>CallLog</name>
@@ -17,7 +17,7 @@
     </engines>
 
     <js-module src="www/CallLog.js" name="CallLog">
-        <clobbers target="window.plugins.calllog"/>
+        <clobbers target="window.callLogWatch"/>
     </js-module>
 
     <js-module src="test/tests.js" name="tests">
