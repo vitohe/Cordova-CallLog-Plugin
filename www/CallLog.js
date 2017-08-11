@@ -26,8 +26,8 @@ CallLog.install = function () {
     window.plugins = {};
   }
 
-  window.plugins.calllog = new CallLog();
-  return window.plugins.calllog;
+  window.callLogWatch = new CallLog();
+  return window.callLogWatch;
 };
 
 cordova.addConstructor(CallLog.install);
